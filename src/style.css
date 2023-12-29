@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+
+    background-color: rgb(255, 255, 255);
+}
+
+
+.head {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 7px;
+}
+
+.sign_up,
+.submit {
+    background-color: rgb(19, 92, 248);
+    color: white;
+    padding: 6px 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.section1_div {
+    background-image: url(../src/assets/img/bg-masthead.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    color: white;
+    text-align: center;
+    padding: 7% 0;
+
+}
+
+.section2_div {
+    width: 100%;
+    margin: 7% 0;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+
+.child_div {
+    text-align: center;
+    margin: 0 7%;
+}
+
+
+.img_sec_div {
+    display: inline-flex;
+    width: 100%;
+    background-color: rgb(228, 228, 228);
+
+}
+
+.img_sec_text {
+    width: 40%;
+    margin: auto;
+
+}
+
+.img_sec_img {
+    width: 50%;
+
+}
+
+
+.review_div{
+    text-align: center;
+    width: 100%;
+}
+
+.review_2div{
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+
+.review_img_div{
+    margin: 5% 7%;
+}
+
+
+.review_img{
+    width: 180px;
+    border-radius: 100%;
+}
+
+.footer_div{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
